@@ -8,7 +8,15 @@ def render():
         "<h2 class='text-gradient'>Upload Your Resume</h2>",
         unsafe_allow_html=True
     )
+    st.info("""
+         📱 **Mobile Users**
 
+         If your resume is stored in **Google Drive**, please download it to your phone first.
+
+        Then upload it from **Downloads** or **Files**.
+
+        Direct upload from Google Drive may not work on some mobile browsers.
+        """)
     jd = st.text_area(
         "Target Job Description (Optional)",
         placeholder="Paste the job description here..."
