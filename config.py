@@ -14,7 +14,7 @@ if not GEMINI_API_KEY:
 if not GEMINI_API_KEY:
     raise ValueError("Missing GEMINI_API_KEY in environment.")
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-2.0-flash"
 
 UPLOAD_DIR = "assets/uploads"
 
